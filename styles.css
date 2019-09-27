@@ -1,0 +1,205 @@
+
+@font-face {
+    font-family: 'cubanoregular';
+    src: url('cubano-regular-webfont.woff2') format('woff2'),
+         url('cubano-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arciform_sansregular';
+    src: url('arciform_0-webfont.woff2') format('woff2'),
+         url('arciform_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+    #visibleicons { display: block; }  /* show it on small screens */
+  }
+  
+  @media screen and (min-width: 770px) and (max-width: 5000px) {
+    #visibleicons { display: none; visibility: collapse; }   /* hide it elsewhere */
+  }
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
+body{
+    background-color: #d5142a !important;
+
+    /* background-image: linear-gradient(315deg, #a40606 , #d98324); */
+      text-align: center;
+    
+}
+
+
+h1{
+    color :#d5142a !important;
+    font-family: cubanoregular;
+    font-size: 200px !important;
+    text-shadow: 11px 5px 9px rgb(0, 0, 0, .25);
+}
+h5{
+    font-family: arciform_sansregular;
+    font-size: 2.5em !important;
+    color: #d5142a;
+    letter-spacing: 7px;
+}
+
+h2{
+    font-family: 'Seaweed Script', cursive;
+    color : white;
+    font-size: 100px !important;
+}
+
+i{
+    color: #ff929e;
+    font-size: 25px;
+    
+}
+i:hover{
+    color: #ffffff;
+}
+.navbar-brand
+{
+    font-family: cubanoregular;    
+    font-size: 45px !important  ;
+    color : white !important;   
+}
+
+.nav-link{
+    color: #ff929e !important;
+    margin-right: 20px; 
+
+}
+
+.navbar-custom {
+    background-color: #d5142a;
+}
+
+.nav-link:hover{
+    color: #ffffff !important;
+    font-size:17px;
+}
+
+.mainname, .surname{
+    margin-top: 120px;
+}
+.surname{
+    position: absolute;
+    padding-top :  80px;
+    padding-left : 250px;
+
+    
+}
+
+#middleware{
+    position : relative;
+}
+
+#nametag{
+    width: 100%;
+    height: auto;
+    /* margin-top: 100px; */
+}
+
+.designer{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 1rem;
+    color: #ff929e;
+    letter-spacing: 0.5rem;
+    opacity: .7;
+}
+
+.main-card{
+    -webkit-box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+-moz-box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+background-color: white;
+width: 70%;
+/* margin-top: 100px;
+margin-bottom: 100px; */
+position: absolute;
+}
+
+.sub-card{
+    -webkit-box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+    -moz-box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+    box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+    background-color: white;
+    position: relative;
+    top : -55px;
+    
+   
+    width: 18rem !important;
+    height: 18rem;
+   
+}
+.sub-card:hover{
+    box-shadow: 17px 17px 42px -21px rgba(0,0,0,0.6);
+}
+.card-tit{
+text-align: center;
+margin-bottom: 35px;
+margin-top: 15px;
+font-family: 'Palanquin Dark', sans-serif;
+}
+.card-tit:hover{
+    color: #d5142a;
+}
+
+
+.col-sm-6{
+    /* padding : 15px !important; */
+    margin-bottom: 0px !important;
+}
+
+#profilepic{
+    width: 80% !important;
+    height: auto !important;
+    margin: auto;
+}
+
+#visibleicons{
+    margin-top: 50px;
+}
+
+#workelement
+{
+    width: auto;
+    height: 3.2rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+#workelementjun
+{
+    width: auto ;
+    height: 75px !important;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-self: center;
+    margin-bottom: 15px;
+
+}
+
+.workdone{
+    padding : 25px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+    -moz-box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+    box-shadow: 16px 15px 40px -21px rgba(0,0,0,0.42);
+   }
+.workdone:hover{
+    box-shadow: 17px 17px 42px -21px rgba(0,0,0,0.6);
+}
+.workcol{
+    text-align: center;
+}
