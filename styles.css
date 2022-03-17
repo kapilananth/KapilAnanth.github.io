@@ -45,10 +45,10 @@ h1{
     text-shadow: 11px 5px 9px rgb(0, 0, 0, .25);
 }
 h5{
-    font-family: arciform_sansregular;
+    font-family: 'Montserrat', sans-serif, arciform_sansregular;
     font-size: 2.5em !important;
     color: #d5142a;
-    letter-spacing: 7px;
+    font-weight: 600 !important;
 }
 
 h2{
@@ -182,7 +182,7 @@ font-family: 'Palanquin Dark', sans-serif;
 #workelementjun
 {
     width: auto ;
-    height: 75px !important;
+    height: 60px !important;
     margin-right: 20px;
     margin-left: 20px;
     justify-self: center;
@@ -203,3 +203,4 @@ font-family: 'Palanquin Dark', sans-serif;
 .workcol{
     text-align: center;
 }
+
